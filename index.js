@@ -1,9 +1,9 @@
-import {foodItem} from './fooditem.js'
+import {bookStore} from './bookStore.js'
 
 function displayItems(){
 
     var books=  document.getElementById('books');
-    const booksData= foodItem.filter((item)=>item.category=='books');
+    const booksData= bookStore.filter((item)=>item.category=='books');
 
     booksData.map(item=>{
         var itemCard= document.createElement('div');

@@ -1,4 +1,4 @@
-const foodItem= [
+const bookStore= [
  
 {
     id: 10,
@@ -29,4 +29,4 @@ const foodItem= [
 }
 ]
 
-export {foodItem};
+export {bookStore};
